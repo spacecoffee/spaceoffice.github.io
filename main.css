@@ -23,9 +23,12 @@ p {
 	text-align:center;
 	font-size: 30px;
 }
-.carousel > img {
+.carousel  img {
 	height: 100%;
-	width: 100%;
+	min-width: 100%;
+	max-width: none;
+	top: 0;
+	left: 0;
 }
 .navbutton{
 	color: #ffffff;
