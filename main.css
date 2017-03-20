@@ -7,6 +7,9 @@ nav {
 	width: 100%;
 	left: 0;
 }
+.navbar navbar-inverse navbar-fixed-top {
+	background-color: black;
+}
 h1 {
 	font-size:100px;
 	text-align:center;
@@ -20,6 +23,10 @@ p {
 	text-align:center;
 	font-size: 30px;
 }
+.carousel > img {
+	height: 100%;
+	width: 100%;
+}
 .navbutton{
 	color: #ffffff;
 	text-decoration: none;
@@ -27,6 +34,18 @@ p {
 	text-align: center;
 	padding: 14px 16px;
 	font-size:25px;
+}
+
+.carousel-caption h3:first-child {
+  animation-delay: 1s;
+}
+
+.carousel-caption h3:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.carousel-caption button {
+  animation-delay: 3s;
 }
 body {
 	background-image:url("Pictures/zombie-background.jpg");

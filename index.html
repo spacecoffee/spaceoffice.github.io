@@ -1,14 +1,113 @@
 <!DOCTYPE html> 
 <html> 
 	<head>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
 	<title>Ops There May Be Zombies</title> 
 	<link rel="stylesheet" type="text/css" href="main.css">
 	</head> 
-	<body>
-		<nav>
-		<a href=# class=navbutton>Zombie History</a> 
-		<a href=# class=navbutton>How do I prepare</a>
-		</nav>
+	<body> 
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand" >Zombie History</a>
+		  <a href=# class="navbar-brand" >How do I prepare</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+		    <a class="btn btn-social-icon btn-twitter">
+			<span class="fa fa-twitter"></span>
+			</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 	<h1>Welcome Fellow Mortals!!</h1>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+
+    <!-- First slide -->
+    <div class="item active">
+		<img class="d-block img-fluid" src="Pictures/zombie-background.jpg">
+      <div class="carousel-caption">
+        <h3 data-animation="animated bounceInLeft">
+          This is the caption for slide 1
+        </h3>
+        <h3 data-animation="animated bounceInRight">
+          This is the caption for slide 1
+        </h3>
+        <button class="btn btn-primary btn-lg"
+                data-animation="animated zoomInUp">Button</button>
+      </div>
+    </div><!-- /.item -->
+
+    <!-- Second slide -->
+    <div class="item">
+	
+		<img class="d-block img-fluid" src="Pictures/oooozombeh.png">
+      <div class="carousel-caption">
+        <h3 class="icon-container" data-animation="animated bounceInDown">
+          <span class="glyphicon glyphicon-heart"></span>
+        </h3>
+        <h3 data-animation="animated bounceInUp">
+          This is the caption for slide 2
+        </h3>
+        <button class="btn btn-primary btn-lg"
+                data-animation="animated zoomInRight">Button</button>
+      </div>
+    </div><!-- /.item -->
+
+    <!-- Third slide -->
+    <div class="item">
+		<img class="d-block img-fluid" src="Pictures/doctor-pose.jpg" style="height: 100%;" />
+      <div class="carousel-caption">
+        <h3 class="icon-container" data-animation="animated zoomInLeft">
+          <span class="glyphicon glyphicon-glass"></span>
+        </h3>
+        <h3 data-animation="animated flipInX">
+          This is the caption for slide 3
+        </h3>
+        <button class="btn btn-primary btn-lg"
+                data-animation="animated lightSpeedIn">Button</button>
+      </div>
+    </div><!-- /.item -->
+
+  </div><!-- /.carousel-inner -->
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic"
+     role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic"
+     role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div><!-- /.carousel -->
 	<p>insert text here</p>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</body>
 	
