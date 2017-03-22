@@ -1,36 +1,42 @@
 <!DOCTYPE html> 
 <html> 
+
 	<head>
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="animate.css">
 	<!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
-	<title>Ops There May Be Zombies</title> 
+	<title>CDC Zombies</title> 
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	</head> 
-	<body> 
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="#" class="navbar-brand" >Zombie History</a>
-		  <a href=# class="navbar-brand" >How do I prepare</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-		    <a class="btn btn-social-icon btn-twitter">
-			<span class="fa fa-twitter"></span>
-			</a>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<body>
 
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CDC Zombie</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:43px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Zombie History</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Prepareness</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Health</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Places to Go</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Zombies vs Other Illnesses</a>
+</nav>
+
+	<div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
@@ -45,12 +51,12 @@
     <!-- First slide -->
     <div class="item active">
 		<img class="d-block img-fluid" src="Pictures/zombie-background.jpg">
-      <div class="carousel-caption">
-        <h3 data-animation="animated bounceInLeft">
-          This is the caption for slide 1
+		<div class="carousel-caption">
+        <h3 data-animation="animated fadeInDown">
+          "I expect a zombie to show up on 'Sesame Street' soon, teaching kids to count."
         </h3>
-        <h3 data-animation="animated bounceInRight">
-          This is the caption for slide 1
+        <h3 data-animation="animated fadeInDown">
+          -George A. Romero 
         </h3>
         <button class="btn btn-primary btn-lg"
                 data-animation="animated zoomInUp">Button</button>
@@ -102,10 +108,12 @@
   </a>
 
 </div><!-- /.carousel -->
-	<p>insert text here</p>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="java.js"></script>
 	</body>
 	

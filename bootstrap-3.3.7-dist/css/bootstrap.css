@@ -6237,7 +6237,8 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
-  position: relative;
+  position: static;
+  left: 400px;
 }
 .carousel-inner {
   position: relative;
