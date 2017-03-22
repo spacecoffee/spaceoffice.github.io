@@ -36,6 +36,7 @@ p {
 #carousel-example-generic {
 	position: relative;
 	left: 100px;
+	width:100%;
 }
 .carousel-caption h3,
 .carousel .icon-container,
